@@ -1,0 +1,22 @@
+GET http://localhost:3047/api/category/list
+Accept: application/json
+
+###
+POST http://localhost:3047/api/category
+Content-Type: application/json
+
+{
+  "name": "Kreditlar"
+}
+
+###
+GET http://localhost:3047/api/category?product_id=1
+Accept: application/json
+
+###
+PUT http://localhost:3047/api/category/1
+Content-Type: application/json
+
+{
+  "name": "Kreditlar"
+}

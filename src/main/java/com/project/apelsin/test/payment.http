@@ -1,0 +1,12 @@
+GET http://localhost:3047/api/payment/details?id=1
+Accept: application/json
+
+###
+POST http://localhost:3047/api/payment
+Content-Type: application/json
+
+{
+  "invoice_id": 2
+}
+
+###

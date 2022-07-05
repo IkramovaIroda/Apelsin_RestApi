@@ -1,0 +1,32 @@
+GET http://localhost:3047/api/order_without_invoices
+Accept: application/json
+
+###
+GET http://localhost:3047/api/number_of_products_in_year
+Accept: application/json
+
+###
+GET http://localhost:3047/api/bulk_products
+Accept: application/json
+
+###
+GET http://localhost:3047/api/high_demand_products
+Accept: application/json
+
+###
+GET http://localhost:3047/api/overpaid_invoices
+Accept: application/json
+
+###
+GET http://localhost:3047/api/customers_last_orders
+Accept: application/json
+
+###
+GET http://localhost:3047/api/wrong_date_invoices
+Accept: application/json
+
+###
+GET http://localhost:3047/api/customers_without_orders
+Accept: application/json
+
+###

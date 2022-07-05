@@ -1,0 +1,27 @@
+GET http://localhost:3047/api/customers_without_orders
+Accept: application/json
+
+###
+POST http://localhost:3047/api/customer
+Content-Type: application/json
+
+{
+  "name": "Tojiboyev Umidjon",
+  "country": "UZB",
+  "address": "Quddus 3-tor 4",
+  "phone": "+998990472436"
+}
+
+###
+GET http://localhost:3047/api/customer
+Accept: application/json
+
+###
+DELETE http://localhost:3047/api/customer/1
+###
+PUT http://localhost:3047/api/customer/1
+Content-Type: application/json
+
+{
+  "name": "Umidjon"
+}

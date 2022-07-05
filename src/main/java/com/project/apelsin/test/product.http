@@ -1,0 +1,20 @@
+POST http://localhost:3047/api/product
+Content-Type: application/json
+
+{
+  "name": "Yillik kredit",
+  "categoryId": 1,
+  "price": 1200000,
+  "photo": "photo",
+  "description": "Kop kredit"
+}
+
+###
+GET http://localhost:3047/api/product/list/details?product_id=1
+Accept: application/json
+
+###
+GET http://localhost:3047/api/product/list
+Accept: application/json
+
+###

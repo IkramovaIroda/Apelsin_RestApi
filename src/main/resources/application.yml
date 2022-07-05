@@ -1,0 +1,23 @@
+
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    open-in-view: true
+  datasource:
+    password: root
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/apelsin
+    driver-class-name: org.postgresql.Driver
+  data:
+    rest:
+      base-path: /api
+debug: true
+server:
+  port: 3047
+  servlet:
+    context-path: /api
+
+
+

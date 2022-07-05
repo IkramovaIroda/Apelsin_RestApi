@@ -1,0 +1,18 @@
+GET http://localhost:3047/api/order/details?order_id=2
+Accept: application/json
+
+###
+POST http://localhost:3047/api/order
+Content-Type: application/json
+
+{
+  "customer_id": 1,
+  "products": [
+    {
+      "product_id": 1,
+      "quantity": 15
+    }
+  ]
+}
+
+###
